@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = Final_Marks ~ Study_Hours + Attendance + Previous_Marks, 
+    data = students)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-10.475  -4.307  -1.192   4.204  20.039 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    -7.93964    5.24429  -1.514    0.133    
+Study_Hours     2.95835    0.33175   8.918 3.14e-14 ***
+Attendance      0.29204    0.05043   5.791 8.82e-08 ***
+Previous_Marks  0.36982    0.04101   9.018 1.91e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.55 on 96 degrees of freedom
+Multiple R-squared:  0.6332,	Adjusted R-squared:  0.6218 
+F-statistic: 55.25 on 3 and 96 DF,  p-value: < 2.2e-16
+
